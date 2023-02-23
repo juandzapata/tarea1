@@ -45,9 +45,9 @@ public class App
             System.out.println("Total: " + total + " veces");
 
         } catch( IllegalArgumentException e){
-            System.out.println("!Error¡ -> Extension no válida");
+            System.out.println("\n¡Error! -> Extensión no válida");
         } catch (Exception e) {
-            System.out.println("!Error¡ -> No se encuentra la carpeta indicada" );
+            System.out.println("\n¡Error! -> No se encuentra la carpeta indicada" );
         }
         
         sc.close();

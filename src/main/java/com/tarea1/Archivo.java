@@ -74,7 +74,7 @@ public class Archivo {
                 }
                 break;
             case "csv":
-                palabras = linea.split("[,\\s*]");
+                palabras = linea.split("[,\\s*\\;]");
                 for (int i = 0; i < palabras.length; i++) {
                 
                     if (palabras[i].replaceAll("[^a-zA-Z]", "").equals(palabra)) {
